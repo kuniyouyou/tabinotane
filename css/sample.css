@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    font-size: 35px;
+}
+h2{
+    color: #9680f6
+}
+main{
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font: size 100px;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: auto;
+    width:100%;
+}
+li{
+    font-size: 50%;
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+/* button {
+    width: 5cm;
+    height:3em;
+  } */
+
+#familly_btn {
+    .img-box {
+        width:50%;
+        margin:0 center;
+        }
+    text-align:center;
+    width: 5cm;
+    height:3em;
+    
+}
+#familly_btn:hover {
+    background: #76c3ef;
+    color:#fff;
+    display: block;
+    justify-self: center;
+    width: 300px;
+    align-items: center;
+}
+#hitori_btn {
+    text-align:center;
+    width: 5cm;
+    height:3em;
+}
+#hitori_btn:hover {
+    width: 300px;
+    background: #f680d5;
+    color:#fff;
+    display: block;
+    justify-self: center;
+    align-items: center;
+    
+}
+#tomodati_btn {
+    text-align:center;
+    width: 5em;
+    height:3em;
+    
+}
+#tomodati_btn:hover {
+    background: #eff2a0;
+    color:#fff;
+    display: block;
+    justify-self: center;
+    width: 300px;
+    align-items: center;
+}
